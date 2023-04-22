@@ -3,7 +3,7 @@ package kubectl
 import (
 	"context"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

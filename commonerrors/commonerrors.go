@@ -9,7 +9,7 @@ type ImpossibleErr string
 
 func (err ImpossibleErr) Error() string {
 	return fmt.Sprintf(
-		"You reached a point in kubergrunt that should not happen and is almost certainly a bug. Please open a GitHub issue on https://github.com/gruntwork-io/kubergrunt/issues with the contents of this error message. Code: %s",
+		"You reached a point in kubergrunt that should not happen and is almost certainly a bug. Please open a GitHub issue on https://github.com/tnn-gruntwork-io/kubergrunt/issues with the contents of this error message. Code: %s",
 		string(err),
 	)
 }

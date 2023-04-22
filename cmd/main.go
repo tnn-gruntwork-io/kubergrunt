@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/go-commons/logging"
+	"github.com/tnn-gruntwork-io/go-commons/entrypoint"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/logging"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

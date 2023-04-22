@@ -1,7 +1,7 @@
 package eks
 
 import (
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/url"

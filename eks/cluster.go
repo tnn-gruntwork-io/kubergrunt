@@ -8,10 +8,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/eks"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 // VerifyCluster verifies that the cluster exists, and that the Kubernetes api server is up and accepting traffic.

@@ -35,7 +35,7 @@ module "floating_eni" {
 }
 
 module "instance_types" {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.4.0"
+  source = "git::git@github.com:tnn-gruntwork-io/terraform-aws-utilities.git//modules/instance-type?ref=v0.4.0"
 
   instance_types = ["t2.micro", "t3.micro"]
 }

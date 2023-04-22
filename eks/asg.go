@@ -8,13 +8,13 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/elb"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/collections"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/gruntwork-io/kubergrunt/commonerrors"
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/commonerrors"
+	"github.com/tnn-gruntwork-io/kubergrunt/kubectl"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 // GetAsgByName will lookup an AutoScalingGroup that matches the given name. This will return an error if it can not

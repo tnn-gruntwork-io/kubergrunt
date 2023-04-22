@@ -7,7 +7,7 @@ import (
 	"encoding/pem"
 	"io/ioutil"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 )
 
 // StoreRSAPrivateKey takes the given RSA private key, encode it to pem, and store it on disk at the specified path. You

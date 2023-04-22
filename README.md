@@ -1,5 +1,5 @@
 [![Maintained by Gruntwork.io](https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg)](https://gruntwork.io/?ref=repo_kubergrunt)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gruntwork-io/kubergrunt.svg?label=latest)](https://github.com/gruntwork-io/kubergrunt/releases/latest)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tnn-gruntwork-io/kubergrunt.svg?label=latest)](https://github.com/tnn-gruntwork-io/kubergrunt/releases/latest)
 
 # kubergrunt
 
@@ -22,10 +22,10 @@ corresponding release in the [Releases Page](/../../releases). You can download 
 platform from the releases page.
 
 Alternatively, you can install `kubergrunt` using the [Gruntwork
-Installer](https://github.com/gruntwork-io/gruntwork-installer). For example, to install version `v0.5.13`:
+Installer](https://github.com/tnn-gruntwork-io/gruntwork-installer). For example, to install version `v0.5.13`:
 
 ```bash
-gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/gruntwork-io/kubergrunt" --tag "v0.5.13"
+gruntwork-install --binary-name "kubergrunt" --repo "https://github.com/tnn-gruntwork-io/kubergrunt" --tag "v0.5.13"
 ```
 
 ### 3rd party package managers
@@ -212,7 +212,7 @@ Similar Commands:
 This subcommand will initiate a rolling deployment of the current AMI config to the EC2 instances in your EKS cluster.
 This command will not deploy or update an application deployed on your Kubernetes cluster (e.g `Deployment` resource,
 `Pod` resource, etc). We provide helm charts that you can use to deploy your applications on to a Kubernetes cluster.
-See our [`helm-kubernetes-services` repo](https://github.com/gruntwork-io/helm-kubernetes-services/) for more info.
+See our [`helm-kubernetes-services` repo](https://github.com/tnn-gruntwork-io/helm-kubernetes-services/) for more info.
 Instead, this command is for managing and deploying an update to the EC2 instances underlying your EKS cluster.
 
 Terraform and AWS do not provide a way to automatically roll out a change to the Instances in an EKS Cluster. Due to

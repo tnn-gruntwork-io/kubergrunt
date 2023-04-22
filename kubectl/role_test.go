@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/tnn-gruntwork-io/terratest/modules/k8s"
+	"github.com/tnn-gruntwork-io/terratest/modules/random"
 	rbacv1 "k8s.io/api/rbac/v1"
 
 	"github.com/stretchr/testify/assert"

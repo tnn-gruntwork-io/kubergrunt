@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/kubergrunt/commonerrors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/kubergrunt/commonerrors"
 	"github.com/hashicorp/go-cleanhttp"
 )
 

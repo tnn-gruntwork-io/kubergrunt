@@ -6,13 +6,13 @@ import (
 	"os"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	"github.com/sirupsen/logrus"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 // AuthScheme is an enum that indicates how to authenticate to the Kubernetes cluster.

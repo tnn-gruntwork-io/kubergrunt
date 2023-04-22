@@ -6,7 +6,7 @@ import (
 	"crypto/x509/pkix"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 )
 
 // TLSRSACertificateKeyPair represents the certificate key pair generated using the RSA algorithm.

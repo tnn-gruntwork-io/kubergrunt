@@ -8,11 +8,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/elb"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/tnn-gruntwork-io/kubergrunt/kubectl"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 // RollOutDeployment will perform a zero downtime roll out of the current launch configuration associated with the

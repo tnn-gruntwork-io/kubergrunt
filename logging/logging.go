@@ -2,7 +2,7 @@
 package logging
 
 import (
-	"github.com/gruntwork-io/go-commons/logging"
+	"github.com/tnn-gruntwork-io/go-commons/logging"
 	"github.com/sirupsen/logrus"
 )
 

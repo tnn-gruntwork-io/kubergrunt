@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/entrypoint"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
-	"github.com/gruntwork-io/kubergrunt/tls"
+	"github.com/tnn-gruntwork-io/kubergrunt/kubectl"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/tls"
 )
 
 // List out common flag names

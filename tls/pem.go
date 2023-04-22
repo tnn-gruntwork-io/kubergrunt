@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 )
 
 // EncodeCertificateToPEM will take the raw x509 Certificate and encode it to a pem Block struct.

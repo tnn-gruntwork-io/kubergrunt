@@ -14,19 +14,19 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/blang/semver/v4"
-	"github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/collections"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8stypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/gruntwork-io/kubergrunt/commonerrors"
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
-	"github.com/gruntwork-io/kubergrunt/jsonpatch"
-	"github.com/gruntwork-io/kubergrunt/kubectl"
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/commonerrors"
+	"github.com/tnn-gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/tnn-gruntwork-io/kubergrunt/jsonpatch"
+	"github.com/tnn-gruntwork-io/kubergrunt/kubectl"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 const (

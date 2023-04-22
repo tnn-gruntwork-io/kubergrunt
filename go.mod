@@ -1,12 +1,12 @@
-module github.com/gruntwork-io/kubergrunt
+module github.com/tnn-gruntwork-io/kubergrunt
 
 go 1.18
 
 require (
 	github.com/aws/aws-sdk-go v1.44.145
 	github.com/blang/semver/v4 v4.0.0
-	github.com/gruntwork-io/go-commons v0.8.2
-	github.com/gruntwork-io/terratest v0.32.9
+	github.com/tnn-gruntwork-io/go-commons v0.8.2
+	github.com/tnn-gruntwork-io/terratest v0.32.9
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/mitchellh/go-homedir v1.1.0
@@ -46,7 +46,7 @@ require (
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
-	github.com/gruntwork-io/gruntwork-cli v0.7.0 // indirect
+	github.com/tnn-gruntwork-io/gruntwork-cli v0.7.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.8.2 // indirect
 	github.com/imdario/mergo v0.3.7 // indirect

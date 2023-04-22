@@ -3,7 +3,7 @@ package tls
 import (
 	"testing"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
 	"github.com/stretchr/testify/assert"
 )
 

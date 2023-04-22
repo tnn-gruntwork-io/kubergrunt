@@ -7,7 +7,7 @@ import (
 	// See: https://github.com/kubernetes/client-go/issues/242
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	"github.com/gruntwork-io/kubergrunt/logging"
+	"github.com/tnn-gruntwork-io/kubergrunt/logging"
 )
 
 // GetKubernetesClientFromOptions returns a Kubernetes API client given a KubectlOptions object. Constructs the client

@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/go-commons/shell"
+	"github.com/tnn-gruntwork-io/go-commons/entrypoint"
+	"github.com/tnn-gruntwork-io/go-commons/errors"
+	"github.com/tnn-gruntwork-io/go-commons/shell"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/kubergrunt/eks"
-	"github.com/gruntwork-io/kubergrunt/eksawshelper"
+	"github.com/tnn-gruntwork-io/kubergrunt/eks"
+	"github.com/tnn-gruntwork-io/kubergrunt/eksawshelper"
 )
 
 var (
